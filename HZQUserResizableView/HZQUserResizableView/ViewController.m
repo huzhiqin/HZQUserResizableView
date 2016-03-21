@@ -10,7 +10,7 @@
 #import "HZQUserResizableView.h"
 #import "UIColor+HexString.h"
 
-#define BackgroundColor [UIColor colorwithHexString:@"f7f7f7"]
+#define BackgroundColor [UIColor colorwithHexString:@"f9f9f9"]
 
 @interface ViewController () <HZQUserResizableViewDelegate> {
     UIScrollView *_topScrollView;
@@ -92,7 +92,7 @@
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(i * CGRectGetWidth(scrollView.frame), 0, CGRectGetWidth(scrollView.frame), CGRectGetHeight(scrollView.frame))];
         // 内容根据容器scrollView自适应
         view.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-        view.backgroundColor = [UIColor colorwithHexString:@"f7f5f5"];
+        view.backgroundColor = [UIColor grayColor];
 
         // 4.1.2文字
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 40)];
