@@ -7,12 +7,13 @@
 
 ` *QQ:276635035`
 
-// 截图
 
-本DEMO截图
+# 本DEMO截图
+
 ![](https://github.com/huzhiqin/HZQUserResizableView/blob/master/HZQUserResizableView/HZQUserResizableView/ImageCache/screenshot.gif)
 
-猿题库截图
+# 猿题库截图
+
 ![](https://github.com/huzhiqin/HZQUserResizableView/blob/master/HZQUserResizableView/HZQUserResizableView/ImageCache/screenshot2.gif)
 
 使用方法：
