@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6363392D1C9FC6DF00F72E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363392C1C9FC6DF00F72E79 /* main.m */; };
+		636339301C9FC6DF00F72E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363392F1C9FC6DF00F72E79 /* AppDelegate.m */; };
+		636339331C9FC6DF00F72E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636339321C9FC6DF00F72E79 /* ViewController.m */; };
+		636339361C9FC6DF00F72E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636339341C9FC6DF00F72E79 /* Main.storyboard */; };
+		636339381C9FC6DF00F72E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636339371C9FC6DF00F72E79 /* Assets.xcassets */; };
+		6363393B1C9FC6DF00F72E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636339391C9FC6DF00F72E79 /* LaunchScreen.storyboard */; };
+		636339451C9FC70F00F72E79 /* HZQUserResizableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 636339441C9FC70F00F72E79 /* HZQUserResizableView.m */; };
+		636339481C9FDA0200F72E79 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 636339471C9FDA0200F72E79 /* UIColor+HexString.m */; };
+		6363394B1C9FDAD100F72E79 /* HZQNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6363394A1C9FDAD100F72E79 /* HZQNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		636339281C9FC6DF00F72E79 /* HZQUserResizableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZQUserResizableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6363392C1C9FC6DF00F72E79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6363392E1C9FC6DF00F72E79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6363392F1C9FC6DF00F72E79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		636339311C9FC6DF00F72E79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		636339321C9FC6DF00F72E79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		636339351C9FC6DF00F72E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636339371C9FC6DF00F72E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6363393A1C9FC6DF00F72E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6363393C1C9FC6DF00F72E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636339431C9FC70F00F72E79 /* HZQUserResizableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZQUserResizableView.h; sourceTree = "<group>"; };
+		636339441C9FC70F00F72E79 /* HZQUserResizableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZQUserResizableView.m; sourceTree = "<group>"; };
+		636339461C9FDA0200F72E79 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		636339471C9FDA0200F72E79 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		636339491C9FDAD100F72E79 /* HZQNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZQNavigationViewController.h; sourceTree = "<group>"; };
+		6363394A1C9FDAD100F72E79 /* HZQNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZQNavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636339251C9FC6DF00F72E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6363391F1C9FC6DF00F72E79 = {
+			isa = PBXGroup;
+			children = (
+				6363392A1C9FC6DF00F72E79 /* HZQUserResizableView */,
+				636339291C9FC6DF00F72E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636339291C9FC6DF00F72E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636339281C9FC6DF00F72E79 /* HZQUserResizableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6363392A1C9FC6DF00F72E79 /* HZQUserResizableView */ = {
+			isa = PBXGroup;
+			children = (
+				636339421C9FC70200F72E79 /* HZQUserResizableView */,
+				6363392E1C9FC6DF00F72E79 /* AppDelegate.h */,
+				6363392F1C9FC6DF00F72E79 /* AppDelegate.m */,
+				636339311C9FC6DF00F72E79 /* ViewController.h */,
+				636339321C9FC6DF00F72E79 /* ViewController.m */,
+				636339491C9FDAD100F72E79 /* HZQNavigationViewController.h */,
+				6363394A1C9FDAD100F72E79 /* HZQNavigationViewController.m */,
+				636339461C9FDA0200F72E79 /* UIColor+HexString.h */,
+				636339471C9FDA0200F72E79 /* UIColor+HexString.m */,
+				636339341C9FC6DF00F72E79 /* Main.storyboard */,
+				636339371C9FC6DF00F72E79 /* Assets.xcassets */,
+				636339391C9FC6DF00F72E79 /* LaunchScreen.storyboard */,
+				6363393C1C9FC6DF00F72E79 /* Info.plist */,
+				6363392B1C9FC6DF00F72E79 /* Supporting Files */,
+			);
+			path = HZQUserResizableView;
+			sourceTree = "<group>";
+		};
+		6363392B1C9FC6DF00F72E79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6363392C1C9FC6DF00F72E79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636339421C9FC70200F72E79 /* HZQUserResizableView */ = {
+			isa = PBXGroup;
+			children = (
+				636339431C9FC70F00F72E79 /* HZQUserResizableView.h */,
+				636339441C9FC70F00F72E79 /* HZQUserResizableView.m */,
+			);
+			path = HZQUserResizableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636339271C9FC6DF00F72E79 /* HZQUserResizableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6363393F1C9FC6DF00F72E79 /* Build configuration list for PBXNativeTarget "HZQUserResizableView" */;
+			buildPhases = (
+				636339241C9FC6DF00F72E79 /* Sources */,
+				636339251C9FC6DF00F72E79 /* Frameworks */,
+				636339261C9FC6DF00F72E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZQUserResizableView;
+			productName = HZQUserResizableView;
+			productReference = 636339281C9FC6DF00F72E79 /* HZQUserResizableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636339201C9FC6DF00F72E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HZQ;
+				TargetAttributes = {
+					636339271C9FC6DF00F72E79 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 636339231C9FC6DF00F72E79 /* Build configuration list for PBXProject "HZQUserResizableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6363391F1C9FC6DF00F72E79;
+			productRefGroup = 636339291C9FC6DF00F72E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636339271C9FC6DF00F72E79 /* HZQUserResizableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636339261C9FC6DF00F72E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363393B1C9FC6DF00F72E79 /* LaunchScreen.storyboard in Resources */,
+				636339381C9FC6DF00F72E79 /* Assets.xcassets in Resources */,
+				636339361C9FC6DF00F72E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636339241C9FC6DF00F72E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636339481C9FDA0200F72E79 /* UIColor+HexString.m in Sources */,
+				636339331C9FC6DF00F72E79 /* ViewController.m in Sources */,
+				636339301C9FC6DF00F72E79 /* AppDelegate.m in Sources */,
+				6363392D1C9FC6DF00F72E79 /* main.m in Sources */,
+				6363394B1C9FDAD100F72E79 /* HZQNavigationViewController.m in Sources */,
+				636339451C9FC70F00F72E79 /* HZQUserResizableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		636339341C9FC6DF00F72E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636339351C9FC6DF00F72E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636339391C9FC6DF00F72E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6363393A1C9FC6DF00F72E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6363393D1C9FC6DF00F72E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6363393E1C9FC6DF00F72E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636339401C9FC6DF00F72E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HZQUserResizableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WinHope.demo.HZQUserResizableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		636339411C9FC6DF00F72E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HZQUserResizableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WinHope.demo.HZQUserResizableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636339231C9FC6DF00F72E79 /* Build configuration list for PBXProject "HZQUserResizableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6363393D1C9FC6DF00F72E79 /* Debug */,
+				6363393E1C9FC6DF00F72E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6363393F1C9FC6DF00F72E79 /* Build configuration list for PBXNativeTarget "HZQUserResizableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636339401C9FC6DF00F72E79 /* Debug */,
+				636339411C9FC6DF00F72E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636339201C9FC6DF00F72E79 /* Project object */;
+}
